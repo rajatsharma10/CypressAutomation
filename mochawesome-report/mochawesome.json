@@ -1,0 +1,295 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-17T05:57:16.414Z",
+    "end": "2022-10-17T05:57:54.026Z",
+    "duration": 37612,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "60b417b1-ec29-4084-a9d2-815d4a1ef221",
+      "title": "",
+      "fullFile": "cypress\\e2e\\integration\\GButtonElement.cy.js",
+      "file": "cypress\\e2e\\integration\\GButtonElement.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "731775e9-ea32-445b-a87f-815c6fe8e4c8",
+          "title": "Elements",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "clicking on Element",
+              "fullTitle": "Elements clicking on Element",
+              "timedOut": null,
+              "duration": 5890,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//Visit the Demo QA Website\nconst home = new _HomePage.default();\nhome.GetUrl();\nhome.ClickOnElement();",
+              "err": {},
+              "uuid": "9765ed37-97df-4c55-b68d-c503e64d1895",
+              "parentUUID": "731775e9-ea32-445b-a87f-815c6fe8e4c8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9765ed37-97df-4c55-b68d-c503e64d1895"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5890,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "aafc3f55-41dc-4762-b7b8-7c34773eed0e",
+          "title": "TextBox",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Checking all the fields of textBox",
+              "fullTitle": "TextBox Checking all the fields of textBox",
+              "timedOut": null,
+              "duration": 5892,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const home = new _HomePage.default();\nhome.TextBox();",
+              "err": {},
+              "uuid": "bb320f41-1afe-4583-a155-0a3710850d93",
+              "parentUUID": "aafc3f55-41dc-4762-b7b8-7c34773eed0e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bb320f41-1afe-4583-a155-0a3710850d93"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5892,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "51c228ae-7a0d-4795-b5a5-cede109564b2",
+          "title": "CHECK BOX ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check ALL THE BOXES",
+              "fullTitle": "CHECK BOX  Check ALL THE BOXES",
+              "timedOut": null,
+              "duration": 6507,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const home = new _HomePage.default();\nhome.CheckBox();",
+              "err": {},
+              "uuid": "109b350c-842a-4d4c-869f-56a87805cf96",
+              "parentUUID": "51c228ae-7a0d-4795-b5a5-cede109564b2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "109b350c-842a-4d4c-869f-56a87805cf96"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6507,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "4e354c9b-d7da-40e9-97c9-96dcc0054356",
+          "title": "CHECKING RADIO BUTTON ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "RADIO bUTTON ",
+              "fullTitle": "CHECKING RADIO BUTTON  RADIO bUTTON ",
+              "timedOut": null,
+              "duration": 5836,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const home = new _HomePage.default();\nhome.RadioButton();",
+              "err": {},
+              "uuid": "c8033063-2465-4e9c-bd70-87d363dc5b20",
+              "parentUUID": "4e354c9b-d7da-40e9-97c9-96dcc0054356",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c8033063-2465-4e9c-bd70-87d363dc5b20"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5836,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "25281bee-2444-4f22-9dee-232c5817e198",
+          "title": "Web Table ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Performing the Data driven with Excel in Web Table ",
+              "fullTitle": "Web Table  Performing the Data driven with Excel in Web Table ",
+              "timedOut": null,
+              "duration": 3217,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const home = new _HomePage.default(); // home.GetUrl();\n// home.ClickOnElement();\nhome.WebTable();",
+              "err": {},
+              "uuid": "08b63477-515c-4d38-964c-1c13791a70c5",
+              "parentUUID": "25281bee-2444-4f22-9dee-232c5817e198",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "08b63477-515c-4d38-964c-1c13791a70c5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3217,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "6efcd254-79a0-4834-8296-2b9369a38b77",
+          "title": "ButtonScenarios ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Performing the diff Type of Action on Buttons   ",
+              "fullTitle": "ButtonScenarios  Performing the diff Type of Action on Buttons   ",
+              "timedOut": null,
+              "duration": 6836,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const home = new _HomePage.default();\nhome.TypesOfButton();",
+              "err": {},
+              "uuid": "e0af6f9b-3410-4f98-99f6-e196d24a9a33",
+              "parentUUID": "6efcd254-79a0-4834-8296-2b9369a38b77",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e0af6f9b-3410-4f98-99f6-e196d24a9a33"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6836,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

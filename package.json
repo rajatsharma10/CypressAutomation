@@ -1,0 +1,33 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cy:run": "cypress run"
+  },
+  "author": "Rajat",
+  "license": "ISC",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": false,
+  "screenshotsFolder": "images",
+  "devDependencies": {
+    "cypress": "^10.10.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-multi-reporters": "^1.6.1",
+    "cypress-wait-until": "^1.7.2",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.0.0",
+    "mocha-junit-reporter": "^2.1.0",
+    "mochawesome-merge": "^4.2.1",
+    "node-xlsx": "^0.21.0"
+  }
+}

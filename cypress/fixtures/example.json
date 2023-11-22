@@ -1,0 +1,15 @@
+{
+
+  "LoginCrediantal":[
+ { "Email":"rajat4321@yopmail.com",
+   "Password":"Rajat@123",
+   "InValid_Email":"Invalid@gmail.com",
+    "Invalid_Password":"@1234"
+}
+  ],
+  "URL":[
+
+   {"url":"https://server-acc.esignly.com/site"}
+  ] 
+ 
+}
